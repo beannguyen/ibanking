@@ -25,7 +25,6 @@ angular.module('ibanking-app')
 		            	url: '/thong-tin-tong-quan',
 		            	templateUrl: 'assets/tpl/profile.html'
 		            })
-<<<<<<< HEAD
 		            .state('assets', {
 		            	abstract: true,
 		            	url: '/assets',
@@ -36,7 +35,6 @@ angular.module('ibanking-app')
 		            	templateUrl: 'assets/tpl/login.html'
 		            })
 		            // create by BeanNguyen
-=======
 		            .state('app.nap-tien', {
 		            	url: '/nap-tien',
 		            	templateUrl: 'assets/tpl/naptien.html'
@@ -53,7 +51,6 @@ angular.module('ibanking-app')
 		            	url: '/nap-tien-bang-the',
 		            	templateUrl: 'assets/tpl/napTienTheCao.html'
 		            })
->>>>>>> e4ccff8ff8da829b51919a9dc7aead2235cb439e
 			}
 		]
 	)
