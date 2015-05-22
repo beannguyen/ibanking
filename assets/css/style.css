@@ -1,3 +1,30 @@
+<<<<<<< HEAD
+/**
+ *	CODE BY BeanNguyen | At 5.22PM
+ */
+.page-login {
+	margin: 50px auto;
+}
+
+.page-login .form-login {
+    padding: 20px 0px 0px;
+    width: 560px;
+    float: none;
+    margin: 0 auto;
+    background-color: gainsboro;
+}
+.action-login ul {
+	list-style: outside none none;
+	margin-left: 200px;
+}
+
+.action-login ul li {
+	display: inline;
+}
+/**
+ *	CODE BY BeanNguyen | At 5.22PM
+ */
+=======
 /*<========= By Khoa ============>*/
 * {
     margin: 0px;
@@ -7242,3 +7269,4 @@ a.label:hover,a.label:focus,a.badge:hover,a.badge:focus{
 /*</===========By Khoa==========>*/
 
 
+>>>>>>> e4ccff8ff8da829b51919a9dc7aead2235cb439e

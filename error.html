@@ -1,0 +1,31 @@
+<br />
+<font size='1'><table class='xdebug-error xe-notice' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Notice: Array to string conversion in /home/vagrant/Code/ibank/server/authentication/auth.php on line <i>14</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0052</td><td bgcolor='#eeeeec' align='right'>240664</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='/home/vagrant/Code/ibank/server/authentication/auth.php' bgcolor='#eeeeec'>../auth.php<b>:</b>0</td></tr>
+</table></font>
+Array
+
+<pre class='xdebug-var-dump' dir='ltr'>
+<b>array</b> <i>(size=0)</i>
+  <i><font color='#888a85'>empty</font></i>
+</pre>
+
+<pre class='xdebug-var-dump' dir='ltr'>
+<b>object</b>(<i>stdClass</i>)[<i>10</i>]
+  <i>public</i> 'username' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'abc'</font> <i>(length=3)</i>
+</pre>
+
+<br />
+<font size='1'><table class='xdebug-error xe-warning' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Warning: mysqli_query() expects parameter 1 to be mysqli, integer given in /home/vagrant/Code/ibank/server/libraries/database.class.php on line <i>105</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0066</td><td bgcolor='#eeeeec' align='right'>239888</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='/home/vagrant/Code/ibank/server/authentication/auth.php' bgcolor='#eeeeec'>../auth.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.1113</td><td bgcolor='#eeeeec' align='right'>256552</td><td bgcolor='#eeeeec'>login(  )</td><td title='/home/vagrant/Code/ibank/server/authentication/auth.php' bgcolor='#eeeeec'>../auth.php<b>:</b>13</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.1113</td><td bgcolor='#eeeeec' align='right'>256848</td><td bgcolor='#eeeeec'>Database->query(  )</td><td title='/home/vagrant/Code/ibank/server/authentication/auth.php' bgcolor='#eeeeec'>../auth.php<b>:</b>21</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.1113</td><td bgcolor='#eeeeec' align='right'>256896</td><td bgcolor='#eeeeec'><a href='http://www.php.net/function.mysqli-query' target='_new'>mysqli_query</a>
+(  )</td><td title='/home/vagrant/Code/ibank/server/libraries/database.class.php' bgcolor='#eeeeec'>../database.class.php<b>:</b>105</td></tr>
+</table></font>
+<div style="background-color:#FFF; border: 3px solid #999; padding:10px"><b>mySQL WARNING!</b><br />DB Error: mySQL Error on Query : SELECT * FROM users WHERE username = 'sdfdsfsdf' AND password = '758f695188fdd4099f2b0892089e40d7' <br /> More Information: <br /><ul><li> Date : May 22, 2015, 3:09 pm</li><li> Referer: 1</li><li> Script: /server/authentication/auth.php</li></ul></div>
