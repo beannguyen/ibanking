@@ -1,0 +1,119 @@
+<div class="row" style="float: left;">
+	<form class="form-horizontal" id="naptien_card" action="/giao-dich/nap-card" method="post">	
+		<div class="span7 pull-left" style="width:485px;">
+			<div class="emotion">
+				<input class="input_hidden" name="RechargeCardForm[emotion]" id="card_viettel" checked="checked" value="VIETTEL" type="radio">
+					<label for="card_viettel" class="viettel" title="card_viettel" lang=" 23%"></label>
+					<div>Thẻ cào Viettel<br>
+						Phí giao dịch: 23%<br>
+						Thời gian hoàn thành: 2-5 phút					
+					</div>
+			</div>
+			<div class="emotion">
+				<input class="input_hidden" name="RechargeCardForm[emotion]" id="card_vina" value="VINA" type="radio">
+				<label for="card_vina" class="vinaphone" title="card_vina" lang=" 22.5%"></label>
+					<div>Thẻ cào VINA<br>
+						Phí giao dịch: 22.5%<br>
+						Thời gian hoàn thành: 2-5 phút					
+					</div>
+				</div>
+				<div class="emotion">
+					<input class="input_hidden" name="RechargeCardForm[emotion]" id="card_gate" value="GATE" type="radio">
+					<label for="card_gate" class="gate" title="card_gate" lang="20%"></label>
+					<div class="transition-left">Thẻ cào GATE<br>
+						Phí giao dịch:20%<br>
+						Thời gian hoàn thành: 2-5 phút					
+					</div>
+				</div>
+				<div class="emotion">
+					<input class="input_hidden" name="RechargeCardForm[emotion]" id="card_mobi" value="MOBI" type="radio">
+					<label for="card_mobi" class="mobile" title="card_mobi" lang=" 22.5%"></label>
+					<div>Thẻ cào Mobifone<br>
+						Phí giao dịch: 22.5%<br>
+						Thời gian hoàn thành: 2-5 phút					
+					</div>
+				</div>
+				<div class="emotion">
+					<input class="input_hidden" name="RechargeCardForm[emotion]" id="card_vnm" value="VNM" type="radio">
+					<label for="card_vnm" class="vnm" title="card_vnm" lang="20%"></label>
+					<div class="transition-left">Thẻ cào VietNaMobile<br>
+						Phí giao dịch:20%<br>
+						Thời gian hoàn thành: 2-5 phút					
+					</div>
+				</div>
+					<span class="help-inline" id="RechargeCardForm_Emotion_em_" style="display: none;"></span>
+
+		<div class="clearfix">
+		</div>
+		<div class="row" style="margin-top:20px;">
+			<div class="control-group ">
+				<label class="control-label required" for="RechargeCardForm_Pin">Mã Pin thẻ <span class="required">*</span></label><div class="controls"><input name="RechargeCardForm[Pin]" id="RechargeCardForm_Pin" maxlength="16" type="text">
+			</div>
+		</div>			
+	</div>
+	<div class="row">
+		<div class="control-group ">
+			<label class="control-label required" for="RechargeCardForm_Serial">Số seri thẻ <span class="required">*</span></label>
+			<div class="controls">
+			<input name="RechargeCardForm[Serial]" id="RechargeCardForm_Serial" type="text">
+		</div>
+	</div>			
+</div>
+<div class="row row-captcha">
+	<label class="control-label">Mã an toàn</label>
+	<div class="captcha margin-left-20">
+		<img id="yw0" src="/giao-dich/transaction/default/captcha?v=555f311105a50" alt=""><a id="yw0_button" href="/giao-dich/transaction/default/captcha?refresh=1"></a>				
+	</div>
+	<div class="clear">
+	</div>
+	<div class="control-group ">
+		<label class="control-label required" for="RechargeCardForm_verifyCode">Nhập mã an toàn <span class="required">*</span></label>
+		<div class="controls"><input style="float:left;" placeholder="Nhập dòng chữ hiện ở trên" class="input_res" title="Nhập dòng chữ hiện ở trên" tabindex="2" name="RechargeCardForm[verifyCode]" id="RechargeCardForm_verifyCode" type="text">
+		</div>
+	</div>								
+</div>
+<div class="acc_button row text-center">
+	<button class="btn-recharge " style="font-weight: bold; margin-left: -33px;" name="send" type="submit">Nạp tiền</button>
+</div>
+		</div>
+		<style type="text/css">
+		._nt, ._tl{
+			display: none;
+		}
+		.active-nt ._nt, .active-tl ._tl{
+			display: block;
+		}
+
+		.active-ct{
+			background-color: #1EB453 !important;
+			color: #FFF !important;
+		}
+
+		#_nt, #_tl {
+			cursor: pointer;
+			line-height: 32px;
+			font-size: 14px;
+			font-weight: bold;
+			background-color: rgba(231, 235, 234, 1);
+			color: #1EB453;
+			width: 116px;
+			text-align: center;
+			-webkit-border-radius: 4px 4px 0 0;
+			-moz-border-radius: 4px 4px 0 0;
+			border-radius: 4px 4px 0 0;
+		}
+
+		#_tl{
+			margin-left: 3px;
+			position: relative;
+			z-index: -1;
+		}
+
+		.tab-control{
+			height: 32px;
+			border-bottom: 5px solid #1EB453;
+		}
+
+	</style>
+	
+</div>
