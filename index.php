@@ -2,7 +2,11 @@
 <html ng-app="ibanking-app" ng-controller="mainController">
 	<head>
 		<title>{{ app.page_title }}</title>
+<<<<<<< HEAD
 		<link rel="stylesheet" type="text/css" href="assets/angular/plugins/bootstrap/css/bootstrap.min.css" />
+=======
+		<link rel="stylesheet" type="text/css" href="assets/angular/plugins/bootstrap/css/bootstrap.css" />
+>>>>>>> e4ccff8ff8da829b51919a9dc7aead2235cb439e
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 	</head>
 	<body>

@@ -1,1 +1,101 @@
-header
+<!--=======By Khoa=======-->
+<div id="acc_header_info">
+	<div class="acc_header_content">
+		<div class="span6" style="margin-left:0px">
+			<a class="baokim-logo pull-left" href="https://www.baokim.vn">
+				<img src="https://www.baokim.vn/cdn/assets/x_account/7953ebab/images/home_v2/logo-bt-new.png" alt="Bảo Kim JSC">
+			</a>
+			<span class="acc_title_slogan pull-left">VÍ ĐIỆN TỬ NHOM 2 </span>
+		</div>
+		<div class="span9" style="width:740px;overflow:hidden" align="right">
+			<style>
+	.logout {
+		padding: 3px 9px !important;
+		font-size: 16px;
+		color: red !important;
+		border-left: 0px !important;
+		background-color: #ECECEC;
+		float: right;
+		border: 1px solid #DEDEDE;
+	}
+
+	.glyphicon-off {
+		top: 3px;
+	}
+</style>
+<div id="box_user_info">
+	<div class="user">
+		<div class="pull-right">
+			<a class=" logout tooltip-alert" href="https://www.baokim.vn/accounts/logout?return_url=https%3A%2F%2Fwww.baokim.vn%2Ftai-khoan%2Fthong-tin-tong-quan" data-toggle="tooltip" data-placement="top" title="" data-original-title="Đăng xuất">
+				<span class="glyphicon glyphicon-off"></span>
+			</a>
+		</div>
+		<div class="pull-right">
+			<a id="acc_account_info_popup" class="dropdown-info tooltip-alert" href="#" data-original-title="Quản lý tài khoản" data-content="">
+				<span class="glyphicon glyphicon-align-justify"></span> <span class="caret"></span>
+			</a>
+		</div>
+		<div class="pull-right">
+			<a class="account-name tooltip-alert" href="https://www.baokim.vn/tai-khoan/thong-tin-tong-quan" data-original-title="Thông tin tổng quan">
+				<span class="small-avt"><img src="https://id.vatgia.com/avatar/512/000/178/63.png"></span>
+									Khoa Võ Trần							</a>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+	<div class="info">
+		<div class="money">
+			<div style="margin-bottom: -8px;">
+				<style>
+					.money .tooltip-inner{
+						background-color: white;
+						color: black;
+						border: 1px solid #1DB455;
+						white-space: nowrap;
+					}
+				</style>
+				<a target="_blank" href="https://www.baokim.vn/ho-tro/a/tien-thuong-chuong-trinh-smartcash" class="_icon-gio-vang" data-toggle="tooltip" data-placement="top" data-original-title="Xem cách dùng tiền thưởng"></a>
+				<script type="text/javascript">
+					$('._icon-gio-vang').tooltip({
+						trigger:'hover'
+					})
+				</script>
+			</div>
+			<span class="available-balances">Số dư khả dụng				: 0				VND</span>
+			<span class="vpoint-balances">Số dư tiền thưởng				: 0				Đ
+			</span>
+			<span class="promotion-balances">Số dư đóng băng				: 0				VND</span>
+			<div class="clear"></div>
+		</div>
+	</div>
+</div>
+<style>
+		#box_user_info .avartar {
+		background: url("") no-repeat left top;
+		background-size: 60px 60px;
+	}
+
+	.acc_big_avatar {
+		background: url("") no-repeat left top;
+		background-size: 60px 60px;
+	}
+	.tooltip.in{
+		opacity:1;
+	}
+	</style>
+<script type="text/javascript">
+	jQuery(function ($) {
+		$('#acc_account_info_popup').popover({
+			trigger: 'click',
+			html: true,
+			template: '<div id="acc_account_info_popup_content" class="fix_acc_account_info popover account_info"><div class="arrow"></div><div class="popover-inner"><div class="popover-content"><p></p></div></div></div>',
+			placement: 'bottom'
+		});
+		$('.tooltip-alert').tooltip();
+	});
+</script>
+			<div class="clearfix"></div>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</div>
+<!--/=======By Khoa=======-->
