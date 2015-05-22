@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 /*<========= By Khoa ============>*/
 * {
     margin: 0px;
@@ -763,6 +761,7 @@
 
 #acc_menu_for_saler {
     font-size: 12px;
+    width: 207px;
 }
 
 #acc_menu_for_saler a {
@@ -880,8 +879,869 @@
     color: #333333;
     white-space: nowrap;
 }
-<<<<<<< HEAD
->>>>>>> e51d60e4fa4837812cc1705474e2daaa1d96b005
-=======
+#acc_content_info #content{
+     padding-bottom:45px;
+}
+.offset-top-10{
+  margin-top:10px;
+}
+#acc_content_info {
+  margin-left: 0px;
+}
+
+.input_hidden {
+  position: absolute;
+  left: -9999px;
+}
+
+#naptien_card .row .emotion {
+  margin-bottom: 20px;
+}
+
+#naptien_card label {
+  text-align: left;
+}
+
+/*Captcha*/
+.row-captcha .captcha {
+  float: left;
+}
+
+.row-captcha .control-group {
+  float: left;
+}
+
+.row-captcha #yw0_button {
+  background: url("../images/refest.png") no-repeat scroll 0px 0px transparent;
+  display: block;
+  float: left;
+  height: 27px;
+  margin-left: 15px;
+  margin-top: 25px;
+  width: 27px;
+}
+
+.row-captcha .captcha img {
+  border: 1px solid rgba(172, 172, 165, 0.38);
+  border-radius: 0 0 0 0;
+  float: left;
+  margin-bottom: 21px;
+  padding: 0 50px;
+  width: 157px;
+}
+
+#naptien_card .row {
+  margin-left: 0px;
+}
+
+.acc-recharge-bk {
+  font-size: 11px;
+}
+
+.acc-recharge-bk .acc_text {
+  padding: 5px 0px 0px 0px;
+}
+
+.stickit {
+  height:110px;
+  width: 1000px;
+  background: #ff0000;
+  position: fixed;
+  top:0;
+  z-index: 9999999;
+}
+
+.stickit-end {
+  bottom:-1px;
+  position: absolute;
+  z-index: 99999999;
+}
+
+/*Box chuyen tien*/
+#acc_nap_tien .acc_box_thong_tin {
+  border-left: 2px solid rgb(255, 255, 255);
+  background-color: #F9F9F9;
+  float: right;
+  position: relative;
+  top:3px;
+  width: 237px;
+  z-index: 1000;
+}
+
+/*#acc_nap_tien .acc_chuyen_nap_money*/
+/*{*/
+  /*margin-left: 23px;*/
+  /*width: 730px;*/
+  /*float: left;*/
+/*}*/
+.acc_chuyen_nap_money table {
+  position: relative;
+  top: 12px;
+  color: #ffffff;
+}
+
+.margin-left-0{
+  margin-left:0px !important;
+}
+
+.span1{
+  width: 100px;
+}
+
+.acc_chuyen_nap_money table tr td {
+   padding-right: 10px;
+  width: 17%;
+}
+
+.acc_chuyen_nap_money table tr td label {
+  font-size: 12px;
+  font-weight: bolder;
+  margin-bottom: 0px !important;
+  line-height: 0px !important;
+}
+
+.acc_chuyen_nap_money table tr td p {
+  font-size: 11px;
+  text-align: right;
+}
+
+.table td {
+  padding: 4px;
+  line-height: normal;
+  text-align: center;
+  vertical-align: middle;
+  border-top: 1px solid #dddddd;
+}
+
+.table-bordered {
+  border-collapse: collapse;
+  border-left: none;
+  -webkit-border-radius: none;
+  -moz-border-radius: none;
+  border-radius: 0px;
+}
+
+.thead td{
+  text-align: center !important;
+  font-weight: bold;
+  line-height: 20px;
+  padding-left: 10px;
+  background-color: #eeeeee;
+  text-align: left;
+}
+
+.acc_box_thong_tin .acc_title_box_info {
+  margin:10px 0 10px 10px;
+  color: #006C9A;
+}
+
+.acc_box_thong_tin .acc_row_info {
+   padding-left: 10px;
+   border-bottom: 1px solid rgba(155, 152, 152, 0.25);
+   padding-bottom: 10px;
+   padding-top: 10px;
+}
+
+.acc_row_info .title {
+  padding-right: 30px;
+}
+
+.acc_row_info .info {
+  color: #006C9A;
+}
+
+/*
+   quan edit
+*/
+#acc_nap_tien .ui-accordion {
+  width: 76.7%;
+}
+
+#acc_nap_tien .ui-helper-reset{
+  line-height:26px;
+}
+
+.navbar-inverse .navbar-inner{
+  background-color:#515151 !important;
+  background-color: #1b1b1b;
+  background-image: -moz-linear-gradient(top, #515151, #515151);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#515151), to(#515151));
+  background-image: -webkit-linear-gradient(top, #515151, #515151);
+  background-image: -o-linear-gradient(top, #515151, #515151);
+  background-image: linear-gradient(to bottom, #515151, #515151);
+  background-repeat: repeat-x;
+  border-color: #252525;
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ff222222', endColorstr='#ff111111', GradientType=0);
+}
+
+.span-11{
+  margin-left:0px !important;
+}
+
+.ui-accordion .ui-accordion-content{
+  padding:0px !important;
+  overflow: hidden;
+}
+
+.control-label{
+  font-size:13px;
+}
+
+#naptien_card span{
+  /*color:red !important;*/
+}
+
+.btn-success{
+  width:145px;
+}
+
+.center {
+  width:250px;
+  height:50px;
+  border:1px solid black;
+
+  /* Internet Explorer 10 */
+  display:-ms-flexbox;
+  -ms-flex-pack:center;
+  -ms-flex-align:center;
+
+  /* Firefox */
+  display:-moz-box;
+  -moz-box-pack:center;
+  -moz-box-align:center;
+
+  /* Safari, Opera, and Chrome */
+  display:-webkit-box;
+  -webkit-box-pack:center;
+  -webkit-box-align:center;
+
+  /* W3C */
+  display:box;
+  box-pack:center;
+  box-align:center;
+}
+
+.acc_chuyen_nap_money label {
+  margin-bottom:0px !important;
+  line-height: 15px !important;
+}
+
+.font-8pt{
+  font-size: 8pt !important;
+}
+
+/*--------- gd-------------*/
+.acc_line_time_login{
+  padding:0px !important;
+  height:40px;
+  margin-bottom:25px !important;
+}
+
+.line-green{
+  height:3px;
+  width:100%;
+    background-color: #1DB455;
+    margin: 0px 0px 10px 0px;
+}
+
+.gd-select{
+    width: 110px;
+}
+
+.gd-calendar {
+  width: 244px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  margin-right: 10px;
+  -webkit-appearance: none;
+  background:url("../images/icon-lich.jpg") no-repeat;
+  background-position:88px 2px;
+}
+
+label.lead-charge{
+  font-family: segoeui;
+  font-size: 17px;
+  color: #006C9A;
+    padding: 10px 0px 10px 0px;
+}
+
+.ui-state-default .ui-icon{
+  background-image:url("../images/white-ui-icons_454545_256x240.png") !important;
+  background-position: -2px -14px !important;
+}
+
+input, select, textarea  {
+  border-radius:0px !important;
+    font-size: 11px !important;
+  width: 244px;
+  box-shadow: 0px !important;
+}
+
+.radio{
+  font-size:12px !important;
+}
+
+.ui-state-active .ui-icon {
+  background-image:url("../images/white-ui-icons_454545_256x240.png") !important;
+  background-position: -15px -14px !important;
+}
+
+.pagination a{
+  background-color:#1EB453 !important;
+  color:#ffffff;
+  line-height:20px !important;
+}
+
+.control-group label{
+  font-size:12px;
+}
+
+.btn-nap{
+  border-radius: 0px;
+  margin-left: 180px;
+}
+
+.control-label{
+  text-align:left !important;
+}
+
+.title-conten{
+  font-size:17px;
+}
+
+.row{
+  margin-left:0px;
+}
+
+.recharge_at_home_size_100{
+    width: 427px;
+  margin-top:10px;
+}
+
+.listCity, .district-list{
+  width:150px;
+  margin-right:10px;
+}
+
+.time{
+  width: 135px;
+  height:30px;
+}
+
+.textArea-at-home{
+  width:443px;
+  height:100px;
+  margin-left: 125px;
+}
+
+/*.money {*/
+    /*display: inline-block;*/
+/*}*/
+
+.notice{
+  margin: 20px 0px 20px 0px;
+}
+
+.notice form{
+  margin-bottom:5px;
+}
+
+span.required{
+  color:red;
+}
+
+/*cac phuong thuc nap tien*/
+.icon_head{
+  width: 16px;
+  height: 16px;
+  background: #1DB455;
+  margin-right: 5px;
+}
+
+.item_charge{
+    border-top: 1px solid #e5e5e5;
+  padding: 11px 0px 1px 1px
+}
+
+.item_charge a p:hover{
+  color: #1DB455;
+}
+
+
+
+.icon_head img{
+  margin: 0px 0px 3px 5px;
+}
+
+.fleft{
+  float: left;
+}
+
+.fright{
+  float: right;
+}
+
+.title_charge{
+  font:normal 11pt Arial,Helvetica,sans-serif;
+  color: #555;
+  margin-right: 10px;
+  width: 50%;
+}
+
+.title_charge i{
+  font-size:13px;
+}
+
+.active{
+  background: #dcdcdc;
+}
+
+.popover-border-green{
+  border:1px solid #1eb353;
+}
+
+.popover-border-green p{
+  color:#006391;
+  font-size:12px;
+}
+
+.popover-border-green .popover-inner{
+  border-radius: 3px !important;
+  min-height:35px;
+}
+
+IFRAME {
+    border: 0px;
+    width: 100%;
+}
+
+.font-13px{
+  font-size:13px;
+}
+.btn-recharge, .btn-recharge:hover, .btn-recharge:focus, .btn-recharge:active {
+  background-color: #1EB453;
+  border: none;
+  color: white;
+  padding: 8px 20px;
+  font-size: 12px;
+}
+
+._bt-ls, ._bt-ls:hover, ._bt-ls:focus, ._bt-ls:active{
+  padding: 8px 20px;
+  margin:10px 5px 20px 0px;
+  font-size: 12px;
+  background-color:#E7E7E7;
+  color:#464646;
+}
+
+.btn-chi-tiet, .btn-chi-tiet:hover, .btn-chi-tiet:focus, .btn-chi-tiet:active {
+  background-color: #1EB453;
+  border: none;
+  color: white;
+  padding: 8px 20px;
+  margin:0px 5px 20px 0px;
+  font-size: 12px;
+}
+
+.btn-cancel {
+  background-color: #E7E7E7;
+  border: none;
+  color: #000000;
+  padding:5px 20px;
+  margin-bottom: 20px;
+  font-size:12px ;
+}
+
+.sml-bank {
+  border: 1px solid #ffffff;
+  padding: 5px;
+  margin: 10px 0px 10px 0px;
+}
+
+.margin-top-10{
+  margin-top:10px;
+}
+
+.add-on{
+  border-radius:0px !important;
+}
+
+.td-label{
+  float:left;
+  clear:left;
+  width:200px;
+  background-color:#000099;
+  min-height:30px;
+}
+
+.td-input{
+  width:300px;
+  min-height: 30px;
+  background-color:#f044cc;
+}
+
+.margin-left-20{
+  margin-left:20px;
+}
+
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+  box-shadow:none !important;
+}
+
+/*css the cao*/
+.selected {
+  border-color: #1EB353 !important;
+  background-image: url("../images/mobile-card.png") !important;
+  opacity: 1 !important;
+  -webkit-transition-duration: 800ms;
+  -moz-transition-duration: 800ms;
+}
+label.viettel, label.vinaphone, label.gate, label.mobile, label.vcoin, label.vnm {
+  background-image: url("../images/mobile-card.png");
+  border: 1px solid rgba(0, 0, 0, 0.22);
+  opacity: 0.5;
+}
+label.viettel {
+  background-position: -130px -1px;
+}
+label.viettel-active {
+  background-position: -132px 1px;
+}
+label.vinaphone {
+  background-position: -1px 1px;
+}
+label.gate {
+  background-position: 230px 0px;
+}
+
+label.mobile {
+  background-position: 355px 0px;
+}
+label.vcoin {
+  background-position: 388px 0px;
+}
+
+label.vnm {
+  background-position: 124px 0px;
+}
+.acivte-card-conten div {
+  width:250px;
+    opacity: 1;
+}
+.emotion div{
+  background-color: #1DB455;
+}
+.emotion, .emotion-lixi{
+  position: relative;
+  width:130px;
+  height:62px;
+  padding:3px;
+  margin:10px 0px 0px 10px;
+  display: inline-block;
+}
+.emotion input{
+  display:none;
+}
+.emotion label, .emotion-lixi label{
+  z-index:2;
+  cursor: pointer;
+  border:1pt solid rgba(32, 31, 29, 0.33);
+  width:130px;
+  height:62px;
+  position: absolute;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -webkit-transition-duration: 800ms;
+  -moz-transition-duration: 800ms;
+}
+.emotion div{
+  overflow: hidden;
+  cursor: pointer;
+  position:absolute;
+  padding:5px;
+  font-family: tahoma;
+  font-size:11px;
+  color: #ffffff;
+  word-wrap: break-word;
+  padding-top:5px;
+  text-align:center;
+  width:122px;
+  height:54px;
+  background-color: #1EB453 !important;
+  display: inline-block;
+  opacity:0;
+  -webkit-transition-property: opacity,width,margin-left;
+  -moz-transition-property: opacity,width,margin-left;
+  -webkit-transition-duration:800ms;
+  -moz-transition-duration: 800ms;
+}
+.acivte-card-conten{
+  z-index:9;
+}
+.acivte-card-conten div{
+  opacity:1 !important;
+  z-index:1;
+  width:270px !important;
+}
+.acivte-card-conten label{
+  opacity:0 !important;
+}
+.acivte-card-conten .transition-left{
+  margin-left:-149px;
+}
+/*end*/
+.card-promotion {
+    float: right;
+    width: 245px;
+}
+.payment-alert{
+  background-color: #E9F7DD;min-height:35px;
+  padding:10px;
+  color: #5AB50F;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom:20px;
+}
+.icon-success{
+  background: url("../images/icon-alert.png") no-repeat -125px 0px transparent;
+  height: 27px;
+  width: 27px;
+  margin-right:20px;
+  clear: both;
+  margin-top:-5px;
+}
+/* chi tiết lịch sử giao dich*/
+
+.history-detail{
+  border-bottom: 1px dotted rgba(208, 208, 216, 0.97);
+  margin-bottom:10px;
+}
+.history-detail ul{
+  list-style:none;
+  width:410px;
+  display: inline-block;
+}
+#acc_content_info > #content > #accordion{
+  margin-left:18px;
+}
+.transter_success{
+  width:500px;
+  margin-left:18px;
+  margin-top:0px;
+}
+.transter_success dt{
+  margin-left:-18px;
+  color: #1274A1;
+  font-size:15px;
+}
+.transter_success dd{
+  margin:0px;
+  display: inline-block;
+  width:170px;
+  border-bottom: 1px solid rgba(208, 208, 216, 0.97);
+}
+.btn_transter_success button{
+  background:#1EB453;
+  padding:5px 15px;
+  border:0px;
+  box-shadow:0px;
+  margin:30px 10px 20px 0px;
+  font-size:12px;
+  color:#ffffff;
+}
+.dd_transaction_id{
+  display: inline-block;
+  padding:0px 10px;
+  background-color:#EEEEEE;
+}
+/*end*/
+.vertify_otp p{
+  font-size:13px;
+}
+label{
+  font-size:13px;
+}
+.mau-xam{
+color:rgba(105, 122, 129, 0.84)
+}
+.margin-top-30{
+  margin-bottom:30px
+}
+.hoantien{
+ text-align: right !important;
+  width:180px;
+  padding-right:20px;
+}
+.hoantien .control-label{
+  text-align: right !important;
+  width:180px;
+  padding-right:20px;
+}
+.refund-step2 label{
+  float:left;
+  text-align: right;
+  margin-right:20px;
+  margin-bomttom:0px;
+  width:155px;
+  padding-top:5px;
+}
+
+.can_phai_money{
+    text-align: right !important;
+    padding-right: 2px !important;
+}
+.text-right{
+    text-align: right !important;
+    padding-right: 2px !important;
+}
+/* fancybox */
+.fancybox-add .fancybox-skin{
+  background-color:#ffffff;
+  padding:0px !important;
+}
+.fancybox-add label{
+  margin-left:20px !important;/*gia han tam giu*/
+}
+.fancybox-add .fancybox-close{
+  top: -12px;
+  right: -10px;
+}
+.fancybox-add .fancybox-inner{
+  height:400px !important;
+}
+/*end*/
+.icon-hot{
+  background:url("../images/hot.gif");
+  width: 34px;
+  height: 40px;
+  top: -40px;
+  border-radius: 10px;
+  position: absolute;
+  z-index: 2;
+  right: 5px;
+}
+
+.dropup, .dropdown {
+  position: relative !important;
+}
+
+
+.text-red{
+  color:red;
+}
+
+._nn{
+  margin-right:20px;
+  margin-bottom:15px;
+  display: block;
+}
+
+.nn2{
+    margin-right:20px;
+    margin-bottom:15px;
+    display: block;
+}
+
+.nap-tien-nn{
+  background-image: url(../images/nap-tien-nhanh.png);
+  background-repeat: no-repeat;
+  width: 500px;
+  margin-top: 25px;
+  height: 180px;
+}
+/*gifts*/
+._gifts-img{
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  min-height: 56px;
+  width: 95px;
+  padding-left: 30px;
+  padding-top: 8px;
+}
+
+/* Popup chứng thực tài khoản */
+.popup-note{
+  background-color: #F8F8F8;
+  padding:10px 20px;
+}
+.popup-wrapper {
+  width: 670px;
+  min-height:288px;
+}
+.popup-wrapper .popup-head {
+  background-color: #1eb353;
+}
+.popup-head h2{
+  color: #ffffff;
+  font-size: 18px;
+  padding:2px 20px;
+  margin-bottom:0px;
+  margin: 0px 10px;
+}
+
+.popup-content{
+  margin:10px 0px;
+  padding:0px 20px;
+}
+
+.btn-ht, .btn-ht:hover{
+  padding:8px 15px;
+  background-color: #1EB353;
+  display: inline-block;
+  color: #ffffff;
+  border-radius:5px;
+  text-decoration: none;
+  border: 0px;
+}
+
+.title h5 {
+  color: #1eb353;
+  font-size: 13px;
+  font-weight: bold;
+}
+.offset-left-15{
+  margin-left: 15px;;
+}
+._info-support{
+  width:370px;
+  margin: auto;
+  background-color: #F8F8F8;
+  padding:10px;
+  border-radius:5px;
+}
+
+._avt{
+  margin:10px 25px 0px 0px;
+}
+
+img.banks{
+  border: 1px solid #D5DCDE;
+  width: 75px;
+}
+img.banks:hover{
+  border: 1px solid #1EB353;
+  width: 75px;
+}
+
+.active-bank{
+  position: relative;
+}
+.active-bank .banks{
+  border: 1px solid #1EB353;
+}
+.active-bank .bank-selected{
+  position: absolute;
+  background: url('../images/acitve.png');
+  padding: 9px 9px;
+  z-index: 10;
+}
+
+#bank_group a {
+  margin: 10px 0 0 5px;
+  float: left;
+}
+
 /*Day la phan cua Kien_Dien viet*/
->>>>>>> 711627f071d0fb584e8e9d87f60f1dccde46d4d0
+

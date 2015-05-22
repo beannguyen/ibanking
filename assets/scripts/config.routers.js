@@ -24,6 +24,10 @@ angular.module('ibanking-app')
 		            	url: '/thong-tin-tong-quan',
 		            	templateUrl: 'assets/tpl/profile.html'
 		            })
+		            .state('app.nap-tien', {
+		            	url: '/nap-tien',
+		            	templateUrl: 'assets/tpl/naptien.html'
+		            })
 			}
 		]
 	)
