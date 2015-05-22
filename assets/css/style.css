@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*<========= By Khoa ============>*/
 * {
     margin: 0px;
@@ -468,3 +469,411 @@
   border-right: 1px solid #999999;
 }
 /*</========= By Khoa ============>*/
+=======
+#acc_content_menu {
+    width: 207px;
+    float: left;
+    clear: left;
+    margin-right: 10px;
+    display: inline-block;
+}
+#acc_menu_left {
+    width: 207px;
+    float: left;
+    clear: left;
+    margin-right: 10px;
+    display: inline-block;
+}
+#acc_menu_left ul {
+    margin: 0px 0px 10px;
+}
+#acc_menu_left ul > .active {
+    background-color: #EEE;
+}
+#acc_menu_left ul li {
+    list-style-type: none;
+    height: 25px;
+    font-size: 12px;
+    cursor: pointer;
+    margin-bottom: 7px;
+}
+.icon-user-nap {
+    background-position: -20px -40px;
+}
+#acc_menu_left a {
+    float: left;
+    display: inline-block;
+    width: 190px;
+    height: 19px;
+}
+.nav-list > li > a {
+    padding: 3px 15px 3px 2px !important;
+    color: #646464;
+}
+.nav-list > li > a, .nav-list .nav-header {
+    margin-right: -15px;
+    margin-left: -15px;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5);
+}
+#acc_menu_left ul{
+    margin:0px 0px 10px 0px;
+}
+#acc_menu_left a{
+    color: rgba(0, 0, 0, 0.84);
+}
+#acc_menu_left ul li{
+    list-style-type:none;
+    height:25px;
+    font-size:12px;
+    cursor:pointer;
+    margin-bottom:7px;
+}
+#acc_menu_left a{
+    float: left;
+    display: inline-block;
+    width: 190px;
+    height: 19px;
+}
+.icon-user-info, .icon-user-nap, .icon-user-send-money, .icon-user-get-money, .icon-user-history, .icon-user-gift-point, .icon-user-voucher, .icon-user-gift{
+    background:url("../images/icon.png");
+    width:25px;
+    height:24px;
+    display:inline-block;
+    margin-left:0px;
+    margin-top: -7px;
+}
+.icon-complaint{
+	background:url("../images/icon-complaint.png");
+	background-repeat: no-repeat;
+	width: 22px;
+	height: 24px;
+	display: inline-block;
+	margin-left: 3px;
+	margin-top: -7px;
+}
+
+#acc_menu_left ul li:hover .icon-complaint, #acc_menu_left ul > .active a > .icon-complaint{
+	background:url("../images/icon-complaint-active.png");
+	background-repeat: no-repeat;
+}
+.icon-payment{
+	background:url("../images/icon-payment.png");
+	background-repeat: no-repeat;
+	width: 22px;
+	height: 24px;
+	display: inline-block;
+	margin-left: 3px;
+	margin-top: -7px;
+}
+.icon-list-bank-card{
+	background:url("../images/icon-list-bank-card.png");
+	background-repeat: no-repeat;
+	width: 22px;
+	height: 17px;
+	display: inline-block;
+	margin-left: 3px;
+	margin-top: -3px;
+}
+#acc_menu_left ul li:hover .icon-list-bank-card, #acc_menu_left ul > .active a > .icon-list-bank-card{
+	background:url("../images/icon-list-bank-card-active.png");
+	background-repeat: no-repeat;
+}
+
+#acc_menu_left ul li:hover .icon-payment, #acc_menu_left ul > .active a > .icon-payment{
+	background:url("../images/icon-payment-active.png");
+	background-repeat: no-repeat;
+}
+.submenu_icon{
+    background: url("../images/submenu_icon.png") no-repeat scroll 4px 6px transparent;
+    background-position-y:6px;
+    background-repeat: no-repeat;
+    display: inline-table;
+    height: 12px;
+    width: 12px;
+}
+.icon-user-info{
+    background-position:-20px -6px;
+}
+.icon-user-nap{
+    background-position: -20px -40px;
+}
+.icon-user-send-money{
+    background-position: -20px -74px;
+}
+.icon-user-get-money{
+    background-position: -20px -111px;
+}
+.icon-user-history{
+    background-position: -20px -147px;
+}
+.icon-user-gift-point{
+    background-position: -20px -187px;
+}
+.icon-user-voucher{
+    background-position: -20px -222px;
+}
+.icon-user-gift{
+    background-position: -20px -260px;
+}
+.icon-xacthuc-taikhoan{
+	background:url("../images/xacthuc-taikhoan.png");
+	width: 25px;
+	height: 24px;
+	display: inline-block;
+	margin-left: 1px;
+	margin-top: -7px;
+}
+#acc_menu_left ul li:hover .icon-xacthuc-taikhoan, #acc_menu_left ul > .active a> .icon-xacthuc-taikhoan{
+	background:url("../images/xacthuc-taikhoan-2.png");
+}
+
+.icon-quanly-theNH{
+	background:url("../images/quanly-theNH.png");
+	width: 25px;
+	height: 24px;
+	display: inline-block;
+	margin-left: 1px;
+	margin-top: -7px;
+}
+#acc_menu_left ul li:hover .icon-quanly-theNH, #acc_menu_left ul > .active a> .icon-quanly-theNH{
+	background:url("../images/quanly-theNH-2.png");
+}
+#acc_menu_left ul > .active{
+    background-color:#EEEEEE;
+}
+#acc_menu_left ul > .active > a{
+    color:#1EB453;
+    background-color:#EEEEEE;
+}
+
+#acc_menu_left ul li:hover{
+    /*background-color:#EEEEEE;*/
+}
+#acc_menu_left ul > li:hover > a{
+    color:#1EB453;
+}
+#acc_menu_left ul li:hover .icon-user-info, #acc_menu_left ul > .active a > .icon-user-info{
+    background-position:-74px -6px;
+}
+#acc_menu_left ul li:hover .icon-user-nap, #acc_menu_left ul > .active a> .icon-user-nap{
+    background-position: -74px -40px;
+}
+#acc_menu_left ul li:hover .icon-user-send-money, #acc_menu_left ul > .active a> .icon-user-send-money{
+    background-position: -74px -74px;
+}
+#acc_menu_left ul li:hover .icon-user-get-money, #acc_menu_left ul > .active a> .icon-user-get-money{
+    background-position: -74px -111px;
+}
+#acc_menu_left ul li:hover .icon-user-history, #acc_menu_left ul > .active a> .icon-user-history{
+    background-position: -74px -147px;
+}
+#acc_menu_left ul li:hover .icon-user-gift-point, #acc_menu_left ul > .active a> .icon-user-gift-point{
+    background-position: -74px -187px;
+}
+#acc_menu_left ul li:hover .icon-user-voucher, #acc_menu_left ul > .active a> .icon-user-voucher{
+    background-position: -74px -222px;
+}
+#acc_menu_left ul li:hover .icon-user-gift, #acc_menu_left ul > .active a> .icon-user-gift{
+    background-position: -74px -260px;
+}
+#acc_menu_left ul li:hover .icon-user-info, #acc_menu_left ul > .active a > .icon-user-info{
+	background-position:-74px -6px;
+}
+#acc_menu_left {
+    width: 207px;
+    float: left;
+    clear: left;
+    margin-right: 10px;
+    display: inline-block;
+}
+.nav-list > .active > a > [class^="icon-"]{
+    background:url("../images/icon.png");
+}
+.nav-list {
+    margin-bottom: 0;
+    padding-left: 15px;
+    padding-right: 0px;
+}
+#acc_menu_left .dropdown-menu{
+    position: static;
+    float: left;
+    min-width: 160px;
+    padding: 3px 0;
+    margin: 0px 0 0;
+    list-style: circle;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 0px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+}
+#acc_menu_left .dropdown-menu li > a {
+    width: 152px;
+}
+#acc_menu_left .dropdown-menu li > a:hover, .dropdown-menu li > a:focus, .dropdown-submenu:hover > a {
+    width: 152px;
+    color: #1EB453;
+    text-decoration: none;
+    background-color: #EEEEEE;
+    background-image: none;
+    background-repeat: no-repeat;
+    filter: none;
+    list-style-type: circle;
+}
+.nav .dropdown-toggle .caret {
+    margin-top: 6px;
+    border-top-color: #1DB455;
+    border-bottom-color: #1DB455;
+}
+.nav .dropdown-toggle:hover .caret {
+    border-top-color: #1DB455;
+    border-bottom-color: #1DB455;
+}
+#acc_menu_left .dropdown-menu a {
+    display: block;
+    padding: 3px 15px;
+    clear: both;
+    font-weight: normal;
+    line-height: 20px;
+    color: #333333;
+    white-space: nowrap;
+}
+#acc_menu_left ul li ul li {
+    list-style-type: none;
+    height: 25px;
+    font-size: 12px;
+    cursor: pointer;
+    margin-bottom: 0px;
+}
+.dropup, .dropdown {
+	position: inherit;
+}
+.nav-list > li > a {
+    padding: 3px 15px 3px 2px !important;
+    color: #646464;
+}
+
+#acc_menu_for_saler {
+    font-size: 12px;
+}
+
+#acc_menu_for_saler a {
+    background-color: #fff !important; /*#F2F2F2*/
+}
+
+.acc_menu_fs_title {
+    padding: 5px 0px 5px 5px;
+    font-size: 16px;
+    line-height: 10px;
+    color: #666666;
+    background-color: #EDEDED;
+    font-family: segoeui;
+    margin-bottom: 7px;
+}
+
+.submenu_icon {
+    background: url("../images/submenu_icon.png") no-repeat scroll 4px 6px transparent;
+    background-position-y: 6px;
+    background-repeat: no-repeat;
+    display: inline-table;
+    height: 12px;
+    width: 12px;
+}
+.active {
+    background: #fff;
+}
+.nav .active .dropdown-toggle .caret {
+    border-top-color: #1DB455;
+    border-bottom-color: #1DB455;
+}
+.icon_list_for_saler {
+    background: url("../images/icon_list_for_saler.png") no-repeat scroll 4px 12px transparent;
+    background-position-y: 5px;
+    background-repeat: no-repeat;
+    display: table-cell;
+    height: 21px;
+    margin-top: 1px;
+    width: 12px;
+}
+
+#acc_menu_for_saler .nav-list > li > a {
+    /*border-bottom: 1px solid #c8c7c7;*/
+    padding: 5px 0 10px 0px;
+    margin-right: 0px;
+    display: inline-table;
+}
+
+#acc_menu_for_saler .nav-list > .active > a {
+    color: #1EB453;
+    /*background-color: #eee !important;*/
+    text-shadow: none;
+    margin-right: 0px;
+}
+
+#acc_menu_for_saler .nav-list > .active > a > i {
+    background: url("../images/icon_list_for_saler_ac.png") no-repeat scroll 4px 12px transparent;
+    background-position-y: 5px;
+    background-repeat: no-repeat;
+    display: table-cell;
+    height: 21px;
+    margin-top: 1px;
+    width: 12px;
+}
+
+#acc_menu_for_saler .nav-list > li > a:hover {
+    color: #1EB453; /**/
+    margin-right: 0px;
+}
+#acc_menu_for_saler .dropdown-menu{
+    position: static;
+    float: left;
+    min-width: 160px;
+    padding: 0px 0;
+    margin: 0px 0 0;
+    list-style: none;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 0px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+}
+#acc_menu_for_saler .dropdown-menu li > a {
+    width: 152px;
+}
+#acc_menu_for_saler .dropdown-menu li > a:hover, .dropdown-menu li > a:focus, .dropdown-submenu:hover > a {
+    width: 152px;
+    color: #1EB453;
+    text-decoration: none;
+    background-color: #EEEEEE;
+    background-image: none;
+    background-repeat: no-repeat;
+    filter: none;
+    list-style-type: none;
+}
+.nav .dropdown-toggle .caret {
+    margin-top: 6px;
+    border-top-color: #1DB455;
+    border-bottom-color: #1DB455;
+}
+.nav .dropdown-toggle:hover .caret {
+    border-top-color: #1DB455;
+    border-bottom-color: #1DB455;
+}
+#acc_menu_for_saler .dropdown-menu a {
+    display: block;
+    padding: 5px 13px;
+    clear: both;
+    font-weight: normal;
+    line-height: 15px;
+    color: #333333;
+    white-space: nowrap;
+}
+>>>>>>> e51d60e4fa4837812cc1705474e2daaa1d96b005

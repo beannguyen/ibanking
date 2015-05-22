@@ -4,6 +4,10 @@
 		<title>{{ app.page_title }}</title>
 		<link rel="stylesheet" type="text/css" href="assets/angular/plugins/bootstrap/css/bootstrap.css" />
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+<<<<<<< HEAD
+=======
+
+>>>>>>> e51d60e4fa4837812cc1705474e2daaa1d96b005
 	</head>
 	<body>
 		
