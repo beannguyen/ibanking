@@ -1,0 +1,470 @@
+/*<========= By Khoa ============>*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+*, a:focus {
+    outline: 0px none;
+}
+
+@font-face {
+  font-family: 'Glyphicons Halflings';
+
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+
+.glyphicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.glyphicon-align-justify:before {
+  content: "\e055";
+}
+
+.glyphicon-off:before {
+  content: "\e017";
+}
+
+#box_user_info {
+  font-size: 12px;
+  float: right;
+}
+
+.vip-avt {
+  width: 20px;
+  margin-top: -6px;
+}
+
+.vpoint-upgrade, .vpoint-upgrade:hover {
+  background-color: #016c9a;
+  color: #fff;
+  padding: 5px 10px;
+  margin-top: 5px;
+  display: inline-block;
+  margin-right: -2px;
+  font-size: 12px;
+}
+
+#box_user_info p {
+  font-size: 12px;
+}
+
+#box_user_info .dropdown-info, #box_user_info .account-name {
+  padding: 5px;
+  background-color: #ECECEC;
+  float: right;
+  color: #AAAAAA;
+  border: 1px solid #DEDEDE;
+  max-width: 515px;
+  overflow: hidden;
+  text-align: right;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.account-name {
+  line-height: 25px;
+  border-right: 0px !important;
+  padding:0px 5px 0px 5px !important;
+}
+
+.acc_big_avatar {
+  width: 70px;
+  height: 59px;
+  background: url("../images/avatar.png") no-repeat left top;
+  float: left;
+}
+
+.fix_acc_account_info {
+  width: 400px !important;
+  border-radius: 0px !important;
+  margin: auto;
+  right: -812px;
+  max-width: 400px;
+  left: 0px !important;
+}
+
+#acc_account_info_popup_content .arrow {
+  left: 85% !important;
+}
+
+#box_user_info .btn {
+  border-radius: 0px !important;
+  border-style: none !important;
+  border-width: 0px !important;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 0px !important;
+  margin-bottom: 6px;
+}
+
+#box_user_info .info {
+  float: left;
+  font-family: arial;
+  margin-top: 17px;
+  text-align: right;
+  margin-right: 5px;
+}
+
+#box_user_info .info .money {
+  font-size: 12px;
+}
+
+.info .money span.vpoint-balances {
+  display: inline-block;
+  margin-left: 10px;
+  padding-left: 7px;
+  border-left: 1px solid #d5d5d5;
+  margin-top: 7px;
+}
+
+.info .money span.promotion-balances {
+  display: inline-block;
+  margin-left: 11px;
+  margin-top: 7px;
+}
+
+.info span.available-balances {
+  display: inline-block;
+  background: none repeat scroll 0 0 #1DB455;
+  color: white;
+  line-height: 20px;
+  padding: 2px 5px;
+  text-align: center;
+  min-width: 195px;
+}
+
+#box_user_info .user-name-info {
+  text-align: right;
+}
+
+.user-name-info span.count-mess-info {
+  background: none repeat scroll 0 0 #1DB455;
+  color: white;
+  left: 13px;
+  padding: 1px;
+  text-align: center;
+  position: relative;
+  top: -15px;
+  padding: 1px 5px;
+  display: inline-block;
+}
+
+/*box user info popup*/
+#acc_account_info_popup_content .popover-title {
+  border-radius: 0px !important;
+  text-align: right;
+}
+
+.popover-title .btn_exit {
+  background-image: -moz-linear-gradient(center top, #dfdfdf, #dfdfdf);
+  background-repeat: repeat-x;
+  border-radius: 0 0 0 0;
+  position: relative;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  width: 110px;
+}
+
+#acc_info_user_popup_content {
+  font-family: myriadpro;
+  font-size: 12px;
+  color: #565656;
+  line-height: 20px;
+}
+
+#acc_info_user_popup_content .acc_big_avatar {
+  float: left;
+  clear: both;
+  width: 96px;
+  /*background-image:url("../images/avatar_big.png");*/
+}
+
+#acc_account_info_popup_content .popover-content {
+  padding: 9px 0px;
+}
+
+#acc_info_user_popup_content .acc_info_des {
+  float: left;
+  padding-left: 5px;
+}
+
+.acc_info_des .acc_info_des_name {
+  font-size: 15px;
+  font-family: segoeui;
+  color: #232323;
+}
+
+.acc_info_des .acc_info_des_email {
+  font-size: 13px;
+  font-family: segoeui;
+  color: #717171;
+}
+
+.acc_info_des .acc_info_des_email {
+  font-size: 12px;
+  font-family: segoeui;
+  color: #125e8b;
+}
+
+.acc_info_des .acc_info_des_inbox {
+  margin-top: 10px;
+  font-size: 12px;
+  font-family: segoeui;
+  color: #125e8b;
+}
+
+.acc_list_link_info {
+  border-top: 1px solid #d5d5d5;
+  margin-top: 10px;
+  padding: 0px 10px;
+  background-color: #FBFBFB;
+}
+
+.acc_list_link_info a {
+  padding: 8px 0px;
+  color: #232323;
+  display: block;
+  width: 100%;
+}
+
+.acc_list_link_info a:hover {
+  color: #1DB455;
+}
+
+.acc_list_link_info ul {
+  margin-left: 5px;
+}
+
+.acc_list_link_info ul li {
+  cursor: pointer;
+  clear: both;
+  list-style: none;
+  border-bottom: 1px dashed #d5d5d5;
+}
+
+.acc_list_link_info ul li:hover a {
+  color: #1DB455;
+}
+
+.acc_list_link_info ul li:last-child {
+  border: 0px;
+}
+
+.acc_list_link_info ul li i {
+  float: left;
+  margin-right: 10px;
+}
+
+.acc_list_link_info ul li:hover i {
+  background-position: 0px -18px;
+}
+
+.btn_exit {
+  width: 100px;
+  height: 30px;
+  background-color: #DFDFDF;
+  border: none;
+}
+
+.btn-avarta-exit {
+  margin: 10px 0px 0px 0px;
+  color: #666;
+  font-size: 12px;
+  padding: 2px 0px 3px 0;
+}
+
+.acc_list_link_info li a {
+  font-size: 12px;
+}
+
+.dropdown-icon {
+  width: 10px;
+  height: 60px;
+  background: url("../images/avatar.png") no-repeat -58px top;
+  float: right;
+}
+
+.btn-exit, .btn-exit:hover, .btn-exit:active {
+  background-color: #0274A4;
+  padding: 5px 19px;
+  text-decoration: none;
+  color: #ffffff !important;
+  margin-top: 5px;
+  display: block;
+}
+
+._chtk, ._option_info_show, ._glpin, ._tttk, ._email, ._qlsdt, ._dmk, ._qltkbank, ._security, ._glpin,
+._qlotvc, ._xttk, ._avatar, ._dx {
+  display: inline-block;
+  padding: 9px;
+}
+
+._chtk {
+  background: url("../images/icon/cauhinhtk.png") no-repeat 0px 0px transparent;
+}
+
+._option_info_show {
+  background: url("../images/icon/tuychinhhienthi.png") no-repeat 0px 0px transparent;
+}
+
+._glpin {
+  background: url("../images/icon/guilaiotp.png") no-repeat 0px 0px transparent;
+}
+
+._tttk {
+  background: url("../images/icon/ql-thongtintk.png") no-repeat 0px 0px transparent;
+}
+
+._email {
+  background: url("../images/icon/ql-email.png") no-repeat 0px 0px transparent;
+}
+
+._qlsdt {
+  background: url("../images/icon/ql-sodt.png") no-repeat 0px 0px transparent;
+}
+
+._dmk {
+  background: url("../images/icon/doimk.png") no-repeat 0px 0px transparent;
+}
+
+._qltkbank {
+  background: url("../images/icon/ql-tknganhang.png") no-repeat 0px 0px transparent;
+}
+
+._security {
+  background: url("../images/icon/baomat.png") no-repeat 0px 0px transparent;
+}
+
+._glpin {
+  background: url("../images/icon/guilaiotp.png") no-repeat 0px 0px transparent;
+}
+
+._qlotvc {
+  background: url("../images/icon/ql-OTVC.png") no-repeat 0px 0px transparent;
+}
+
+._xttk {
+  background: url("../images/icon/xacthuctk.png") no-repeat 0px 0px transparent;
+}
+
+._avatar {
+  background: url("../images/icon/doihinhdaidien.png") no-repeat 0px 0px transparent;
+}
+
+._dx {
+  background: url("../images/icon/logout.png") no-repeat 0px 0px transparent;
+}
+
+.btn-avarta-exit:hover ._dx {
+  background: url("../images/icon/logout.png") no-repeat 0px -18px transparent;
+}
+
+#acc_account_info_popup .caret {
+  margin-top: 6px;
+  border-top-color: #AAAAAA;
+}
+
+.small-avt{
+  width: 25px;
+  display: inline-block;
+  border-radius: 50%;
+  overflow: hidden;
+  float: left;
+  margin-right: 5px;
+}
+
+.small-avt img {
+  width: 100%;
+}
+.account-name:hover, .dropdown-info:hover{
+  color: #1DB455 !important;
+}
+
+.dropdown-info:hover .caret{
+  border-top-color:#1DB455 !important;
+}
+
+._icon-gio-vang{
+  background: url("../images/icon-dh_03.png") no-repeat;
+  padding: 0px 6px;
+  margin-right: 165px;
+  cursor: pointer;
+}
+
+.menu_bar_acc_info {
+  margin: 0px auto;
+  background-color: #515151;
+  font-size: 12px;
+}
+
+.menu_bar_acc_info a {
+  color: #e8e8e8;
+}
+
+.menu_bar_acc_info a:hover {
+  color: #1DB455;
+}
+
+.menu_bar_acc_info ul {
+  width: 1230px;
+  margin: auto;
+  height: 36px;
+  background-color: #515151;
+}
+
+.menu_bar_acc_info ul li {
+  display: inline-block;
+  margin: 8px 10px 0px 0px;
+  height: 100%;
+}
+
+#acc_header_info .acc_header_content {
+  margin: auto;
+  width: 1230px;
+  padding-top: 18px;
+  background-color: #f6f6f6;
+}
+
+/* info account */
+.help-inline {
+  color: #ff0000;
+}
+
+#acc_header_info {
+  margin: auto;
+  /*width: 1345px;*/
+  background: #f6f6f6;
+  height: 120px;
+}
+
+.acc_header_content .acc_title_slogan {
+  color: #006C9A;
+  font-family: segoeui;
+  font-size: 20px;
+  padding-left: 34px;
+  padding-top: 5px;
+}
+
+.acc_header_content .acc_short_info {
+  float: right;
+  clear: both;
+}
+
+.baokim-logo {
+  display: inline-block;
+  width: 220px;
+  border-right: 1px solid #999999;
+}
+/*</========= By Khoa ============>*/
