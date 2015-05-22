@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html ng-app="ibanking-app">
+<html ng-app="ibanking-app" ng-controller="mainController">
 	<head>
-		<title>iBanking Web Application</title>
+		<title>{{ app.page_title }}</title>
 		<link rel="stylesheet" type="text/css" href="assets/angular/plugins/bootstrap/css/bootstrap.css" />
 	</head>
 	<body>

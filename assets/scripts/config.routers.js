@@ -13,14 +13,14 @@ angular.module('ibanking-app')
 		['$stateProvider', '$urlRouterProvider',
 			function($stateProvider, $urlRouterProvider) {
 				$urlRouterProvider
-		            .otherwise('/');
+		            .otherwise('/app/thong-tin-tong-quan');
 		        $stateProvider
 		            .state('app', {
 		                abstract: true,
 		                url: '/app',
 		                templateUrl: 'assets/tpl/app.html'
 		            })
-		            .state('app.profile', {
+		            .state('app.thong-tin-tong-quan', {
 		            	url: '/profile',
 		            	templateUrl: 'assets/tpl/profile.html'
 		            })
