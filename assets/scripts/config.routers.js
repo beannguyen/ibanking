@@ -15,6 +15,7 @@ angular.module('ibanking-app')
 				$urlRouterProvider
 		            .otherwise('/app/thong-tin-tong-quan');
 		        $stateProvider
+		        	// create by BeanNguyen
 		            .state('app', {
 		                abstract: true,
 		                url: '/app',
@@ -24,6 +25,16 @@ angular.module('ibanking-app')
 		            	url: '/thong-tin-tong-quan',
 		            	templateUrl: 'assets/tpl/profile.html'
 		            })
+		            .state('assets', {
+		            	abstract: true,
+		            	url: '/assets',
+		            	templateUrl: 'assets/tpl/assets.html'
+		            })
+		            .state('assets.login', {
+		            	url: '/login',
+		            	templateUrl: 'assets/tpl/login.html'
+		            })
+		            // create by BeanNguyen
 			}
 		]
 	)
