@@ -21,7 +21,7 @@ angular.module('ibanking-app')
 		                templateUrl: 'assets/tpl/app.html'
 		            })
 		            .state('app.thong-tin-tong-quan', {
-		            	url: '/profile',
+		            	url: '/thong-tin-tong-quan',
 		            	templateUrl: 'assets/tpl/profile.html'
 		            })
 			}
