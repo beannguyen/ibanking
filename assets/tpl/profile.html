@@ -1,1 +1,128 @@
-<span>this is demo</span>
+<div id="acc_content_info" style="width:1005px;float:left;">
+		<div id="content">
+	<div class="line-green"></div>
+	<div class="body-account-Info">
+	<div class="accordion" id="accordion2">
+				<div class="accordion-group accordion-group-style-bk">
+			<div class="accordion-heading active-accordion">
+				<a class="accordion-toggle " href="https://www.baokim.vn/tai-khoan/thong-tin-tai-khoan">
+					<i class="accordion-icon-bk-down"></i>Thông tin tài khoản				</a>
+			</div>
+			<div class="accordion-body collapse in">
+				<style>
+	.tk{
+		background-color: #f9f9f9;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.tk .left{
+		padding: 8px;
+		width: 200px;
+		text-align: left;
+		padding-left: 20px;
+		border-bottom:1px solid #eaeaea;
+		border-right:1px solid #eaeaea ;
+	}
+	.tk .left_end{
+		padding: 8px;
+		width: 200px;
+		text-align: left;
+		padding-left: 20px;
+		border-right:1px solid #eaeaea ;
+	}
+	.tk .right{
+		color: #217fa7;
+		text-align: left;
+		padding-left: 20px;
+		border-bottom:1px solid #eaeaea;
+	}
+	.tk .right_end{
+		padding: 8px;
+		color: #217fa7;
+		text-align: left;
+		padding-left: 20px;
+	}
+	.tk .right_ct{
+		padding: 8px;
+		color: #217fa7;
+		text-align: right;
+		padding-right: 10px;
+		border-bottom:1px solid #eaeaea;
+	}
+	.tk .chitiet{
+		background-color: #eee;
+		padding:5px 21px;
+	}
+</style>
+
+<table class="tk">
+	<tbody><tr>
+		<td class="left">Số dư tài khoản </td>
+		<td class="right" colspan="2"> 0 VND </td>
+	</tr>
+
+	<tr>
+		<td class="left">Số dư Tiền thưởng</td>
+		<td class="right" colspan="2"> 0 Đ </td>
+	</tr>
+	<tr>
+		<td class="left">Tên tài khoản</td>
+		<td class="right" colspan="2">Khoa Võ Trần  <a target="_blank" href="https://id.vatgia.com/thiet-lap" class="chitiet pull-right"> sửa </a></td>
+	</tr>
+		<tr>
+		<td class="left">Địa chỉ</td>
+		<td class="right" colspan="2"><a target="_blank" href="https://id.vatgia.com/thiet-lap" class="chitiet pull-right"> sửa </a></td>
+	</tr>
+	<tr>
+		<td class="left">Email</td>
+		<td colspan="2" class="right">socoolboy1994@gmail.com<a target="_blank" href="https://id.vatgia.com/account/security/changeEmail/" class="chitiet pull-right">Sửa</a></td>
+	</tr>
+	<tr>
+		<td class="left">Số điện thoại</td>
+		<td colspan="2" class="right"> <a target="_blank" href="https://id.vatgia.com/account/security/changePhone/" class="chitiet pull-right">Sửa</a></td>
+	</tr>
+	<tr>
+		<td class="left">Số CMND / Hộ chiếu</td>
+		<td colspan="2" class="right"><div id="showCmnd">
+			<span>
+				<style>
+					.btn-primary, .btn-primary{
+						background-color: #1EB353 !important;
+						background-image: none;
+						border: 0px;
+						padding: 4px 25px;
+					}
+					.editable-cancel{
+						background-color: #dcdcdc !important;
+						background-image: none;
+						border: 0px;
+						padding:4px 25px;
+					}
+					input{
+						font-size:11px !important;
+					}
+				</style>
+				<a class="chitiet bk-edit pull-right editable editable-click" id="cmnd" data-value="" data-url="/tai-khoan/account/account/updateSocialID" href="/tai-khoan/account/account/updateSocialID">Sửa</a>
+				<script type="text/javascript">
+					$(document).ready(function(){
+						$.fn.editable.defaults.mode = 'inline';
+						$('#cmnd').editable({
+							type:  'text',
+							pk:    1,
+							name:  'username',
+							title: 'Sửa số CMND',
+							placeholder:'Sửa số CMND',
+							success: function(data) {
+								location.reload();
+							}
+						});
+				})
+				</script>			
+			</span>
+			<div>
+		</div></div></td>
+	</tr>
+</tbody></table>
+			</div>	
+		</div>		
+	</div>
