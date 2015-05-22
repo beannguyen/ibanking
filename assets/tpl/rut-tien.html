@@ -1,0 +1,74 @@
+<style>
+	#acc_content_info #content{
+		padding-bottom:45px;
+	}
+</style>
+
+<div id="acc_content_info" style="width:1005px;float:left;">
+	<div id="content">
+		<div class="line-green"></div>
+		<label class="lead-charge">Rut Tien</label>
+
+		<div class="item_charge active">
+			<a href="/giao-dich/chuyen-tien-baokim">
+				<span class="icon_head fleft">
+					<img src="https://www.baokim.vn/cdn/assets/x_transaction/49fb8fb2/images/down_r.png ">
+				</span>
+				<p class="fleft title_charge">
+					Rut tiền		
+				</p>
+			</a>
+			<div style="clear: both"></div>
+		</div>
+
+		<style type="text/css">
+			.row {
+				margin-left: 0px;
+			}
+		</style>
+		<div id="accordion">
+		<form autocomplete="off" class="form-horizontal" id="transfer-form" action="/giao-dich/chuyen-tien-baokim" method="POST">
+
+		<div class="row">
+			<div class="row" style="margin-top: 15px;">
+				<div id="divAmount" class="control-group input-amount">
+					<label class="control-label inline-block font-9pt" for="Rut_money">Số tiền Rut: <span class="required">*</span></label>		
+					<div class="controls input-append">
+						<input tabindex="1" class="amount-only" append="VNĐ" maxlength="11" data-target="Transfer_money" name="Transfer[money]" id="Rut_money" type="text">			
+							<span class="add-on">VNĐ</span>
+					</div>
+					<span style="color: #ffffff;"> đ</span>
+					<span class="help-inline" id="Rut_money_em_" style="display: none"></span>	
+				</div>
+				<div id="errorDetail" class="control-group" style="display: none;">
+					<label class="control-label">&nbsp;</label>
+					<div class="controls" style="margin-top: 0px;"><label id="detailError">error</label></div>
+				</div>
+			</div>		
+		</div>
+		<input id="money_hide" name="Transfer[money]" type="hidden">
+		
+		<div class="row">
+			<label style="width: 200px;display: inline-block;font-size:12px">Số tiền thực nhận :</label><span id="thuc_nhan"></span><span>VND</span><br>
+		</div>
+		
+		<div class="row">
+			<div class="control-group">
+				<label class="control-label">&nbsp;</label>
+				<div class="controls">
+					<button class="btn-recharge" style="margin-left:0px;" name="send" type="submit">Chuyển tiền</button>
+				</div>
+			</div>
+		</div>
+		</form>	
+	</div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$(".mypopover").blur(function(){
+				$(this).popover("hide");
+			});
+		});
+	</script>	
+	<div style="clear: both"></div>
+</div><!-- content -->
+</div>

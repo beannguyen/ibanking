@@ -4,76 +4,58 @@
 	}
 </style>
 <div id="acc_content_info" style="width:1005px;float:left;">
-			<div id="content">
+	<div id="content">
 		<div class="line-green"></div>
 		<label class="lead-charge">Chọn phương thức chuyển tiền</label>
 
-	<div class="item_charge active">
-				<a href="/giao-dich/chuyen-tien-baokim">
-			<span class="icon_head fleft">
-				<img src="https://www.baokim.vn/cdn/assets/x_transaction/49fb8fb2/images/down_r.png ">
-			</span>
-			<p class="fleft title_charge">
-				Chuyển tiền			</p>
-		</a>
-		<label class="pull-right"><a target="_blank" style="font-size:9pt" href="https://www.baokim.vn/ho-tro/a/san-pham-dich-vu/chuyen-tien/">Xem hướng dẫn</a></label>
-		<div style="clear: both"></div>
-	</div>
+		<div class="item_charge active">
+			<a href="/giao-dich/chuyen-tien-baokim">
+				<span class="icon_head fleft">
+					<img src="https://www.baokim.vn/cdn/assets/x_transaction/49fb8fb2/images/down_r.png ">
+				</span>
+				<p class="fleft title_charge">
+					Chuyển tiền		
+				</p>
+			</a>
+			<div style="clear: both"></div>
+		</div>
 
-	<style type="text/css">
-	.row {
-		margin-left: 0px;
-	}
-</style>
+		<style type="text/css">
+			.row {
+				margin-left: 0px;
+			}
+		</style>
 		<div id="accordion">
 		<form autocomplete="off" class="form-horizontal" id="transfer-form" action="/giao-dich/chuyen-tien-baokim" method="POST">
 		<div class="row" style="margin-top: 15px; margin-bottom: -10px;">
 			<div id="divReceiver" class="control-group">
-				<label class="control-label amount-only required" for="Transfer_email">Email / Số điện thoại người nhận <span class="required">*</span></label>				<div class="controls">
-					<input title="" data-original-title="" class="mypopover" tabindex="1" data-content="Nhập email đăng ký tài khoản Bảo Kim của người nhận tiền" name="Transfer[email]" id="Transfer_email" type="text">					<span class="help-inline" id="Transfer_email_em_" style="display: none"></span>				</div>
+				<label class="control-label amount-only required" for="Transfer_email">Email / Số điện thoại người nhận <span class="required">*</span></label>				
+				<div class="controls">
+					<input title="" data-original-title="" class="mypopover" tabindex="1" data-content="Nhập email đăng ký tài khoản vi tien của người nhận tiền" name="Transfer[email]" id="Transfer_email" type="text">
+					<span class="help-inline" id="Transfer_email_em_" style="display: none"></span>				
+				</div>
 			</div>
 		</div>
 
 		<div class="row">
 			<div class="row" style="margin-top: 15px;">
-	<div id="divAmount" class="control-group input-amount">
-		<label class="control-label inline-block font-9pt" for="Transfer_money">Số tiền muốn chuyển <span class="required">*</span></label>		<div class="controls input-append">
-			<input tabindex="1" class="amount-only" append="VNĐ" maxlength="11" data-target="Transfer_money" name="Transfer[money]" id="Transfer_money" type="text">			<span class="add-on">VNĐ</span>
+				<div id="divAmount" class="control-group input-amount">
+					<label class="control-label inline-block font-9pt" for="Transfer_money">Số tiền muốn chuyển <span class="required">*</span></label>		
+					<div class="controls input-append">
+						<input tabindex="1" class="amount-only" append="VNĐ" maxlength="11" data-target="Transfer_money" name="Transfer[money]" id="Transfer_money" type="text">			
+							<span class="add-on">VNĐ</span>
+					</div>
+					<span style="color: #ffffff;"> đ</span>
+					<span class="help-inline" id="Transfer_money_em_" style="display: none"></span>	
+				</div>
+				<div id="errorDetail" class="control-group" style="display: none;">
+					<label class="control-label">&nbsp;</label>
+					<div class="controls" style="margin-top: 0px;"><label id="detailError">error</label></div>
+				</div>
+			</div>		
 		</div>
-		<span style="color: #ffffff;"> đ</span>
-		<span class="help-inline" id="Transfer_money_em_" style="display: none"></span>	</div>
-	<div id="errorDetail" class="control-group" style="display: none;">
-		<label class="control-label">&nbsp;</label>
-		<div class="controls" style="margin-top: 0px;"><label id="detailError">error</label></div>
-	</div>
-</div>		</div>
 		<input id="money_hide" name="Transfer[money]" type="hidden">
-		<div class="row">
-			<div class="control-group">
-				<label class="control-label" for="Transfer_method">Hình thức chuyển tiền</label>				<div class="controls">
-					<input id="ytTransfer_method" value="" name="Transfer[method]" type="hidden"><label class="radio"><input 0="secure-payment" id="Transfer_method_0" value="direct-payment" name="Transfer[method]" type="radio"><label for="Transfer_method_0">Chuyển tiền trực tiếp <span title="" data-original-title="" class="toltip-comment" data-content="Tiền sẽ được chuyển ngay lập tức vào tài khoản của người nhận sau khi xác nhận giao dịch. Để đảm bảo an toàn, từ ngày 30.08.2012, Bảo Kim tiến hành thu 1% / giá trị giao dịch.">
-						<a style="text-decoration:underline" target="_blank" href="https://www.baokim.vn/ho-tro/a/san-pham-dich-vu/chuyen-tien/chuyen-tien-truc-tiep/">(Xem giải thích)</a></span></label></label><label class="radio"><input 0="secure-payment" id="Transfer_method_1" value="secure-payment" checked="checked" name="Transfer[method]" type="radio"><label for="Transfer_method_1">Chuyển tiền an toàn <span title="" data-original-title="" class="toltip-comment" data-content="Tiền được đóng băng trên tài khoản người nhận, thời gian đóng băng tính bằng số ngày tạm giữ mà người chuyển lựa chọn. Bảo Kim cam kết hỗ trợ và giải quyết khiếu nại trong thời gian tạm giữ, người chuyển có thể nhận lại số tiền nếu người nhận không làm đúng như cam kết. Bảo Kim thu phí 1% giá trị giao dịch.">
-						<a style="text-decoration:underline" target="_blank" href="https://www.baokim.vn/ho-tro/a/san-pham-dich-vu/chuyen-tien/chuyen-tien-an-toan/">(Xem giải thích)</a></span></label></label>				</div>
-			</div>
-		</div>
-		<div class="row" id="ngay_tam_giu">
-			<div class="control-group">
-				<label class="control-label required" for="Transfer_days">Số ngày tạm giữ <span class="required">*</span></label>				<div class="controls">
-					<select tabindex="2" style="width:260px" name="Transfer[days]" id="Transfer_days">
-<option value="3">3 ngày</option>
-<option value="5">5 ngày</option>
-<option value="7">7 ngày</option>
-</select>					<span style="margin-left:5px"><img title="" data-original-title="" class="toltip-comment" data-content="Số ngày tạm giữ là khoảng thời gian số tiền được đóng băng trong tài khoản người nhận, Bảo Kim chỉ hỗ trợ giải quyết tranh chấp khiếu nại trong thời gian này" src="https://www.baokim.vn/cdn/assets/x_transaction/49fb8fb2/images/icon-dh_03.png"></span>
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="control-group">
-				<label class="control-label required" for="Transfer_feepayer">Phí giao dịch <span class="required">*</span></label>				<div class="controls">
-					<input id="ytTransfer_feepayer" value="" name="Transfer[feepayer]" type="hidden"><label class="radio"><input 0="2" id="Transfer_feepayer_0" value="2" checked="checked" name="Transfer[feepayer]" type="radio"><label for="Transfer_feepayer_0">Người nhận chịu phí</label></label><label class="radio"><input 0="2" id="Transfer_feepayer_1" value="1" name="Transfer[feepayer]" type="radio"><label for="Transfer_feepayer_1">Người chuyển chịu phí</label></label>					<label class="control-label" for="method" style="width: 280px;"><span id="phi_giao_dich">0</span> VND (= <span id="phi_co_dinh">0</span> VND phí cố định + <span id="phan_tram_giao_dich">1</span>% số tiền giao dịch)</label>
-				</div>
-			</div>
-		</div>
+		
 		<div class="row">
 			<label style="width: 200px;display: inline-block;font-size:12px">Số tiền thực nhận :</label><span id="thuc_nhan"></span><span>VND</span><br>
 			<label style="width: 200px;display: inline-block;font-size:12px">Số tiền thực chuyển :</label><span id="thuc_chuyen"></span><span>VND</span>
@@ -94,39 +76,15 @@
 				</div>
 			</div>
 		</div>
-		</form>	</div>
-<script type="text/javascript">
-	$(document).ready(function(){
-		$(".mypopover").blur(function(){
-			$(this).popover("hide");
-		});
-	});
-</script>	<div style="clear: both"></div>
-	</div><!-- content -->
-		<div id="acc_footer">
-			<div class="footerContent">
-				<div class="acc_menu_footer">
-					<ul>
-						<li>
-							<a target="_blank" href="https://www.baokim.vn/ho-tro/a/gioi-thieu-ve-bao-kim/cam-ket-cua-nguoi-su-dung/">
-								Điều khoản sử dụng							</a>
-						</li>
-						<li style="padding-left:10px">
-							<a target="_blank" href="https://www.baokim.vn/ho-tro/a/quy-che-hoat-dong-bao-kim">
-								Quy chế hoạt động							</a>
-						</li>
-						<li style="padding-left:10px">
-							<a target="_blank" href="https://www.baokim.vn/ho-tro/a/gioi-thieu-ve-bao-kim/chinh-sach-bao-mat/">
-								Chính sách bảo mật							</a>
-						</li>
-						<li>
-							<a data-target="#ho_tro_truc_tuyen" data-toggle="modal" class="ho-tro-truc-tuyen hotline" style="cursor: pointer; font-size: 11.7px;">
-								Liên hệ							</a>
-						</li>
-					</ul>
-				</div>
-				<div class="acc_copy">
-					© 2010 - 2015 BaoKim.VN				</div>
-			</div>
-		</div>
+		</form>	
 	</div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$(".mypopover").blur(function(){
+				$(this).popover("hide");
+			});
+		});
+	</script>	
+	<div style="clear: both"></div>
+</div><!-- content -->
+</div>
