@@ -3,6 +3,8 @@
 	<head>
 		<title>{{ app.page_title }}</title>
 		<link rel="stylesheet" type="text/css" href="assets/angular/plugins/bootstrap/css/bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+
 	</head>
 	<body>
 		
