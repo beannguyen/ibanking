@@ -1,0 +1,42 @@
+<!-- CODE BY BeanNguyen | At 5.22PM -->
+<div class="page-login" ng-controller='loginController'>
+	<div class="form-login">
+		<div class="notice"></div>
+		<form id="login-form" class="form-horizontal" autocomplete="off">
+			<div class="form-content">
+				<div class="row" style="margin-left: 0px;">
+					<div class="control-group ">
+						<label class="control-label required" for="LoginForm_username" >Email / Số điện thoại<span class="required">*</span></label>
+
+						<div class="controls">
+							<input autocomplete="off" class="input_res" placeholder="Email / Số điện thoại đăng nhập" name="email" id="LoginForm_username_form" ng-model="credential.username" autofocus="" type="text">
+							<span class="help-inline" id="LoginForm_username_em_" style="display: none"></span>
+						</div>
+					</div>
+				</div>
+				<div class="row" style="margin-left: 0px;">
+					<div class="control-group "><label class="control-label required" for="LoginForm_password">Mật khẩu							<span class="required">*</span></label>
+						<div class="controls">
+							<input autocomplete="off" class="input_res" placeholder="Mật khẩu đăng nhập hệ thống" title="" name="password" id="LoginForm_password_form" ng-model="credential.password" type="password">
+							<span class="help-inline" id="LoginForm_password_em_" style="display: none"></span>
+						</div>
+					</div>
+				</div>
+				<div class="row" style="margin-left: 180px;margin-bottom: 12px;">
+					<button class="btn-submit btn-green btn btn-primary" type="button" ng-click='formSubmit()'>Đăng nhập</button>
+				</div>
+				<div class="row action-login">
+					<ul style="margin-left: 200px;">
+						<li>
+							<a href="#" rel="external">Quên mật khẩu</a>
+						</li>
+						<li> |</li>
+						<li>Chưa có tài khoản? <a href="/tai-khoan/ca-nhan">Đăng ký</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</form>
+	</div>
+</div>
+<!-- \\ CODE BY BeanNguyen | At 5.22PM -->
