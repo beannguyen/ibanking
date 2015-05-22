@@ -28,6 +28,10 @@ angular.module('ibanking-app')
 		            	url: '/nap-tien',
 		            	templateUrl: 'assets/tpl/naptien.html'
 		            })
+		            .state('app.nap-tien-bang-the', {
+		            	url: '/nap-tien-bang-the',
+		            	templateUrl: 'assets/tpl/napTienTheCao.html'
+		            })
 			}
 		]
 	)
